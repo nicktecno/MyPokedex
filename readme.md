@@ -16,4 +16,4 @@ Implementações futuras:
 
 Adicionar Pokémons ao deck pessoal.
 Implementação de rotas autenticadas.
-Visualização e adição ao deck de cada Pokémon na Filtragem..
+Visualização e adição ao deck de cada Pokémon na Filtragem.
