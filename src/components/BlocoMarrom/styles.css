@@ -1,0 +1,82 @@
+.blocoMarrom {
+  margin-top: 6rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  width:70%;
+  height: 60%;
+  background-color:#D4C3A3;
+  box-shadow: -1px 1px 10px gray;
+  border-radius: 0 0 1rem  1rem ;
+}
+.headerBlocoMarrom{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.select-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.select-block select{
+  width: 15.5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.linha {
+  flex-direction: column;
+  width: 100%;
+}
+
+.linha hr {
+  width:100%;
+  margin-top: 2rem;
+  border: 1px solid gray;
+}
+.packDeCards {
+  flex-direction: column;
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  
+}
+  
+.grid-container {
+    margin-top: 1rem;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 18rem 18rem;
+    grid-template-columns:  20% 20% 20%;
+    grid-gap: 4rem 8rem
+}
+
+.btn {
+  margin-top: 0.5rem;
+    display: flex;
+  justify-content: flex-end;
+    margin-right: 1rem;
+    
+}
+
+.btn button {
+  height: 5rem;
+    width: 4rem;
+    margin-top: 1rem;
+    border-style: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: #B4ADBE;
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+
+

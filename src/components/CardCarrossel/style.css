@@ -1,0 +1,90 @@
+p {
+  margin: 0;
+}
+
+.CardCarrossel {
+  width: 100%;
+  display: flex;
+  background: #B4ADBE;
+  flex-direction: column;
+  border: 2.75px solid black;
+  box-shadow: -1px 1px 10px gray;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
+}
+
+.Card__typesCarrossel {
+
+ justify-content: center;
+ margin-top: -2.5rem;
+ width: 100%;
+ display: flex;
+ flex-direction: row !important;
+    
+}
+
+.Card__imgCarrossel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.Card__imgCarrossel img{
+  display: flex;
+  justify-content: center;
+  width: 11rem;
+
+}
+
+.Card__typeCarrossel {
+  display: flex;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  background: cyan;
+  color: #fff;
+
+}
+
+.Box__nameCarrossel {
+  margin-top: 3.25rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.8rem;
+  
+  
+}
+
+.Card__nameCarrossel {
+  width: 80%;
+  color: white;
+  background-color:#7E7394;
+  border: 2.75px solid black;
+  display: flex;
+  margin-top: 0.5rem;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 3.5rem;
+  border-radius: 0.8rem;
+  
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.Card__infoCarrossel {
+  margin-left: 10px;
+}
+
+.Card__dataCarrossel {
+  padding-bottom: 10px;
+}
+
+.Card__dataCarrossel .titleCarrossel {
+  font-weight: 700;
+}
+

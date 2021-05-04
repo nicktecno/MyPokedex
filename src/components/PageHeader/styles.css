@@ -1,0 +1,195 @@
+
+
+
+.page-header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  align-self: flex-start;
+  flex-direction:row;
+  background-color: #524153;
+}
+
+
+.page-header .top-bar-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: var(--color-text-in-primary);
+  padding: 1.6rem 0;
+}
+
+
+.logo-pokemon img {
+  display: flex;
+  justify-content: flex-start;
+  width:10rem;
+  
+}
+.logoCompeti img {
+  display: flex;
+  justify-content: flex-end;
+  width: 10rem;
+}
+
+.page-header .top-bar-container a {
+  margin-right: 2rem;
+  display:flex;
+  width: 8rem;
+  height: 3.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #7E7394;
+  border: 2.75px solid black;
+  border-radius: 0.7rem;
+  text-decoration: none;
+  color:white;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-div {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width:100%
+}
+.input-div input {
+
+  display: flex;
+  border-radius: 0.7rem;
+  height: 5rem;
+  width:100%;
+  margin-right:1rem;
+  text-indent: 1%;
+}
+
+.page-header .header-content {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  margin:3.2rem auto;
+}
+
+/* modal */
+.containerGeral{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  height:100%;
+  width: 100%;
+  background-color: black;
+}
+
+
+.containerModal {
+  position: absolute;
+  margin-top: 10%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  opacity: 0.9;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.containerModal img {
+  height:16em;
+}
+
+
+
+
+
+.botaoFechar {
+  position: absolute;
+  right: 2rem;
+  top:0;
+  margin-top: -8rem;
+ 
+  
+}
+
+/* botao de Fechar Modal */
+
+.close-container {
+  position: relative;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.leftright{
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+
+.botaoFechar label{
+  color: black;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close{
+  margin: 60px 0 0 -18px;
+  position: absolute;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #F25C66;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #F25C66;
+}
+.close-container:hover label{
+  opacity: 1;
+}
+
+
+
+
+
+.divTable {
+  background-color: white;
+  display: flex;
+  height: 50%;
+  width: 40%;
+  max-width: 20em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+}
